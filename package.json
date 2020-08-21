@@ -1,0 +1,40 @@
+{
+  "name": "404",
+  "version": "1.0.0",
+  "description": "game built in KontraJS for JS13k 2020",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "test",
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Visrozar/404.git"
+  },
+  "keywords": [
+    "KontraJS",
+    "JS13K",
+    "404"
+  ],
+  "author": "Elvis Rozario, Nishad Wadwekar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Visrozar/404/issues"
+  },
+  "homepage": "https://github.com/Visrozar/404#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "file-loader": "^6.0.0",
+    "html-loader": "^1.2.1",
+    "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "kontra": "^7.1.1"
+  }
+}
