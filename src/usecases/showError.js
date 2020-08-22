@@ -1,0 +1,1 @@
+// show text in screen in red (maybe top right?)
